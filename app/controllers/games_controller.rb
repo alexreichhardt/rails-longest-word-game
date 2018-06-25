@@ -16,6 +16,8 @@ class GamesController < ApplicationController
   end
 
   def new
+
+
     create_session
     @letters = []
     10.times do
